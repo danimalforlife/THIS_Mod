@@ -11,6 +11,9 @@ description: |+
   I can’t handle this information
 
 assets:
+
+#Hud Icons
+
   - name: remastered/obj/P_EX100_SIDECAR.a.us/-8.png
     multi:
       - name: remastered/obj/P_EX100_SIDECAR.a.fr/-8.png
@@ -115,6 +118,22 @@ assets:
     method: copy
     source:
       - name: remastered/obj/P_EX100_XM.a.us/THAT.dds
+
+#Lion King Hud Icons
+
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/obj/P_EX100_XM.a.us/THISLK.dds
+  - name: remastered/obj/P_LK000.a.us/-8.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/obj/P_EX100_XM.a.us/NALA.dds
+
+#Transitions
+
   - name: remastered/field2d/us/al0field.2dd/US_al0field_2dd2.png
     platform: pc
     method: copy
@@ -1436,6 +1455,11 @@ assets:
     source:
       - name: remastered/Transitions/INFORMATION.dds
   - name: remastered/map/us/wi06.bar/US_wi06_bar0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/Transitions/INFORMATION.dds
+  - name: remastered/map/us/wi07.bar/US_wi07_bar0.dds
     platform: pc
     method: copy
     source:
