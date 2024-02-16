@@ -118,6 +118,23 @@ assets:
     method: copy
     source:
       - name: remastered/obj/P_EX100_XM.a.us/THAT.dds
+  - name: remastered/obj/P_EX110.a.us/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/obj/P_EX100_XM.a.us/THIS.dds
+  - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/obj/P_EX100_XM.a.us/THIS.dds
+  - name: remastered/obj/P_EX120.a.us/-8.dds
+    platform: pc
+    method: copy
+    source:
+      - name: remastered/obj/P_EX100_XM.a.us/THIS.dds
+
+
 
 #Lion King Hud Icons
 
